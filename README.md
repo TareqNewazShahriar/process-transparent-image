@@ -6,4 +6,4 @@ Convert transparent pixels of an image to a specific color e.g. white/black etc.
 * `smooth-edging`: true/false. Default: true.
 * `image-url`: Image Url; e.g. `https://mysite.com/images/logo.png`. App will fetch the image and process it. 
 
-So, and example query can be: *?**fill-transparency**=white&**smooth-edging**=true&**image-url**=https://mysite.com/images/logo.png*
+So, an example url query can be: *?**fill-transparency**=white&**smooth-edging**=true&**image-url**=https://mysite.com/images/logo.png*
