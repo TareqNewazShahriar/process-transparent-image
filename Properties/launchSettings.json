@@ -1,9 +1,0 @@
-{
-  "profiles": {
-    "process_transparency": {
-      "commandName": "Project",
-      "commandLineArgs": "--port 7172",
-      "launchBrowser": false
-    }
-  }
-}
