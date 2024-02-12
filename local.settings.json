@@ -2,11 +2,6 @@
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
-    "CdnManagementTokenScope": "https://management.core.windows.net//user_impersonation",
-    "CdnEndpoint:SubscriptionId": "e71bbd6e-4469-4c23-b146-bd060ea747e4",
-    "CdnEndpoint:ResourceGroupName": "UTC_App_Services_Dev",
-    "CdnEndpoint:ProfileName": "edgeco-retirement-cdn-dev",
-    "CdnEndpoint:EndpointName": "edgeco-retirement-cdndev"
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated"
   }
 }
