@@ -13,3 +13,6 @@ Also process semi-transparent pixels to smoothen the edges of objects.
 
 An example url query can be: `http://azure-functionapp.azurebetsites.net/ProcessTransparentImage?fillTransparency=white&smoothEdge=true&blobName=image/log-dark.png`
 With imageUrl instead of blobName: `&image-url=https://mycnd.com/images/logo.png`
+
+## Output
+![output image with comparison](./output/output.png)
