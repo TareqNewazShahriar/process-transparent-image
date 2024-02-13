@@ -95,10 +95,7 @@ public class FunctionRemoveTransparency
     {
         Uri uri = new Uri(uriString);
         using var httpClient = new HttpClient();
-
-        // Get the file extension
-        var uriWithoutQuery = uri.GetLeftPart(UriPartial.Path);
-        var fileExtension = Path.GetExtension(uriWithoutQuery);
+        httpClient.DefaultRequestHeaders.Add("User-Agent", "Azure Function v4; .Net8-C#;");
 
         // Download the image and convert to byte array
         var response = await httpClient.GetAsync(uri);
