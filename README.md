@@ -9,7 +9,7 @@ Also process semi-transparent pixels to smoothen the edges of objects.
 * `fillTransparency`: white/black/none.
 * `smoothEdge`: true/false.
 * `blobName`: Azure blob path, excluding container name.
-* `imageUrl`: Public Image Url; e.g. mysite.com/images/logo.png. App will fetch the image and process it. Either blob name or image url will be processed.
+* `imageUrl`: Public Image Url; e.g. _mysite.com/images/logo.png_. App will fetch the image and process it. Either blob name or image url will be processed.
 
 An example url query can be: `my-function-app.azurebetsites.net/ProcessTransparentImage?fillTransparency=white&smoothEdge=true&blobName=image/log-dark.png`
 With imageUrl instead of blobName: `&image-url=https://mycnd.com/images/logo.png`
