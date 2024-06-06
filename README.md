@@ -1,4 +1,4 @@
-# remove-image-transparency
+# process-transparent-pixels
 Convert transparent pixels of an image to a specific color (white/black) etc.
 Also process semi-transparent pixels to smoothen the edges of objects.
 
